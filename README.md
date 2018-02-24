@@ -1,4 +1,5 @@
 # sdl-healthcheck
+[![Build status](https://ci.appveyor.com/api/projects/status/vcersqylnjt970y1/branch/master?svg=true)](https://ci.appveyor.com/project/kunalshetye/sdl-healthcheck/branch/master)
 
 A simple web application that can check the status of SDL CIS micro services.
 
@@ -21,6 +22,9 @@ or check issues).
 Optional:
 * Change the port the web server is listening on by adding an `application.properties` file in `./config` and set the property `server.port` to the required port number.
 
+### Securing passwords in the `services.json` file
+
+Just like in SDL Web 8 (Tridion) cd_* configuration files it is possible to encrypt the passwords in the `services.json` file. Check the SDL Web documentation for the procedure (e.g. as described in point 3 [here](http://docs.sdl.com/LiveContent/content/en-US/SDL%20Web-v1/GUID-9419CF43-DA1E-477F-AEF2-4130115C4C9B)).
 ## Starting
 
 1. Change to directory where the distribution zip was unpacked
