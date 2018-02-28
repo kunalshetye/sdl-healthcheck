@@ -1,6 +1,8 @@
 # sdl-healthcheck
 [![Build status](https://ci.appveyor.com/api/projects/status/vcersqylnjt970y1/branch/master?svg=true)](https://ci.appveyor.com/project/kunalshetye/sdl-healthcheck/branch/master)
 
+![Dashboard](https://raw.githubusercontent.com/kunalshetye/sdl-healthcheck/master/screenshots/Dashboard-1024x379.png)
+
 A simple web application that can check the status of SDL CIS micro services.
 
 The health check web application functions as a simple proxy server. It provides http endpoints that can be called (without OAuth authentication), 
